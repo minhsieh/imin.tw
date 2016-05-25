@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
 <!-- Title -->
-<title>I'm in Studio</title>
+<title>I'm in Studio - 「加入」工作室</title>
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="assets/img/favicon.png">
@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="assets/css/styles.css" />
 
 <!-- CSS Template -->
-<link rel="stylesheet" href="assets/css/theme.min.css" />
+<link rel="stylesheet" href="assets/css/theme.css" />
 <link rel="stylesheet" href="assets/css/color/purple-yellow.css" id="color" />
 
 </head>
@@ -80,13 +80,13 @@
 
         <!-- Top -->
         <div class="container container-wide text-md">
-            <i class="icon-before fa fa-comments text-primary"></i>Have you got any questions? Write to me at <a href="#" class="text-primary">hello@suelo.pl</a>
+            <i class="icon-before fa fa-comments text-primary"></i>Have you got any questions? Write to me at <a href="#" class="text-primary">oimintw@gmail.com</a>
         </div>
 
         <!-- Middle -->
         <div class="container container-wide v-bottom padding-v-80">
             <h1 class="text-lg margin-b-0">Hi! I’m <strong>Min Hsieh</strong></h1>
-            <h5 class="text-tertiary margin-b-40">a Full-Stuck Webdeveloper</h5>
+            <h5 class="text-tertiary margin-b-40">a Full-Stuck Webdeveloper 全端網頁開發者</h5>
             <span data-target="local-scroll">
                 <a href="#resume" class="btn btn-lg btn-primary animated" data-animation="bounceIn">
                     <span>Go to my resume!</span>
@@ -112,10 +112,9 @@
                     <!-- Resume Box / About -->
                     <div class="resume-box">
                         <span class="icon animated" data-animation="fadeInDown"><i class="ti-comment-alt text-tertiary"></i></span>
-                        <h4><strong>About</strong> Me</h4>
-                        <p class="lead">Sed porttitor nulla eget enim gravida blandit. Integer risus nunc, molestie a nibh in, interdum fringilla urna.</p>
-                        <p>Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus. 
-                        Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>   
+                        <h4><strong>關於</strong>我</h4>
+                        <p class="lead">一個在國中為了炫耀，寫了第一個PHP的網站後，從此踏上自學程式的道路。</p>
+                        <p>大學非資訊或程式相關的科系，靠著自學和拜Google為師，獨自Coding出自己的興趣，擅長PHP，但同時也在不斷學習其他的程式語言，網站前後端都可以開發，喜歡非正規的挑戰和需求。</p>   
                     </div>
 
                     <!-- Resume Box / Skills -->
