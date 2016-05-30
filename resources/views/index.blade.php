@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
 <!-- Title -->
-<title>I'm in Studio - 「加入」工作室</title>
+<title>I'm in Studio - I'm In工作室 </title>
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="assets/img/favicon.png">
@@ -26,6 +26,12 @@
 <!-- CSS Template -->
 <link rel="stylesheet" href="assets/css/theme.css" />
 <link rel="stylesheet" href="assets/css/color/purple-yellow.css" id="color" />
+
+<style type="text/css">
+    .list-group-item .label {
+        float:right;
+    }
+</style>
 
 </head>
 
@@ -104,7 +110,7 @@
         <!-- Content -->
         <div class="container container-wide">
 
-            <h6 class="margin-b-50">Resume</h6>
+            <h6 class="margin-b-50">履歷 Resume</h6>
             
             <div class="row padding-lg">
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -120,42 +126,46 @@
                     <!-- Resume Box / Skills -->
                     <div class="resume-box">
                         <span class="icon animated" data-animation="fadeInDown"><i class="ti-cup text-tertiary"></i></span>
-                        <h4><strong>Skills</strong> &amp; abilities</h4>
-                        <!-- Skill -->
-                        <div class="skill">
-                            <div class="progress progress-animated">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                    <span></span>
-                                </div>
+                        <h4><strong>技能</strong></h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">HTML5,CSS3</h3>
                             </div>
-                            <strong>HTML5</strong>
+                            <ul class="list-group">
+                                <li class="list-group-item">Bootstrap UI<span class="label label-primary">精通</span></li>
+                                <li class="list-group-item">Semantic UI<span class="label label-primary">精通</span></li>
+                            </ul>   
                         </div>
-                        <!-- Skill -->
-                        <div class="skill">
-                            <div class="progress progress-animated">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                    <span></span>
-                                </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">PHP</h3>
                             </div>
-                            <strong>CSS3</strong>
+                            <ul class="list-group">
+                                <li class="list-group-item">Laravel<span class="label label-primary">精通</span></li>
+                                <li class="list-group-item">CodeIgniter<span class="label label-success">熟悉</span></li>
+                                <li class="list-group-item">Workerman<span class="label label-success">熟悉</span></li>
+                                <li class="list-group-item">Slim<span class="label label-info">略懂</span></li>
+                            </ul>   
                         </div>
-                        <!-- Skill -->
-                        <div class="skill">
-                            <div class="progress progress-animated">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                    <span></span>
-                                </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">JavaScript</h3>
                             </div>
-                            <strong>JavaScript / jQuery</strong>
+                            <ul class="list-group">
+                                <li class="list-group-item">JavaScript<span class="label label-primary">精通</span></li>
+                                <li class="list-group-item">jQuery<span class="label label-primary">精通</span></li>
+                                <li class="list-group-item">node.js<span class="label label-info">略懂</span></li>
+                            </ul>   
                         </div>
-                        <!-- Skill -->
-                        <div class="skill">
-                            <div class="progress progress-animated">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                    <span></span>
-                                </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">平面設計</h3>
                             </div>
-                            <strong>AngularJS</strong>
+                            <ul class="list-group">
+                                <li class="list-group-item">Illustrator<span class="label label-primary">精通</span></li>
+                                <li class="list-group-item">InDesign<span class="label label-success">熟悉</span></li>
+                                <li class="list-group-item">Photoshop<span class="label label-info">略懂</span></li>
+                            </ul>   
                         </div>
                     </div>
 
@@ -165,29 +175,29 @@
                     <!-- Resume Box / Specilities -->
                     <div class="resume-box">
                         <span class="icon animated" data-animation="fadeInDown"><i class="ti-mouse-alt text-tertiary"></i></span>
-                        <h4>My <strong>Specialities</strong></h4>
+                        <h4>我的<strong>服務項目</strong></h4>
                         <!-- Speciality -->
                         <div class="speciality">
                             <span class="speciality-icon"><i class="text-muted-2x ti-desktop"></i></span>
                             <div class="speciality-content">
-                                <h5 class="margin-b-0">Website production</h5>
-                                <p class="speciaity-description">Great, modern website designes.</p>
+                                <h5 class="margin-b-0">各類網站開發</h5>
+                                <p class="speciaity-description">幫您做出現代、好用的網站或線上系統，或是其他特別功能</p>
                             </div>
                         </div>
                         <!-- Speciality -->
                         <div class="speciality">
                             <span class="speciality-icon"><i class="text-muted-2x ti-layers-alt"></i></span>
                             <div class="speciality-content">
-                                <h5 class="margin-b-0">Front-End Development</h5>
-                                <p class="speciaity-description">Great, modern website designes.</p>
+                                <h5 class="margin-b-0">平面設計</h5>
+                                <p class="speciaity-description">名片、海報、輸出品，或是企業形象</p>
                             </div>
                         </div>
                         <!-- Speciality -->
                         <div class="speciality">
                             <span class="speciality-icon"><i class="text-muted-2x ti-mobile"></i></span>
                             <div class="speciality-content">
-                                <h5 class="margin-b-0">Responsive design</h5>
-                                <p class="speciaity-description">Great, modern website designes.</p>
+                                <h5 class="margin-b-0">外包網站工程師</h5>
+                                <p class="speciaity-description">您的公司需要遠距作業的外包工程師來維護或更新系統</p>
                             </div>
                         </div>
                     </div>
@@ -195,25 +205,31 @@
                     <!-- Resume Box / Education and Jobs -->
                     <div class="resume-box">
                         <span class="icon animated" data-animation="fadeInDown"><i class="ti-calendar text-tertiary"></i></span>
-                        <h4><strong>Education</strong> &amp; jobs</h4>
+                        <h4>相關<strong>經歷</strong></h4>
                         <div class="timeline">
                             <!-- Single event -->
                             <div class="timeline-event te-primary">
-                                <span class="event-date">Jan 2004 - Dec 2006</span>
-                                <span class="event-name">Specialization course</span>
-                                <span class="event-description">University of studies, Poland, Cracow</span>
+                                <span class="event-date">2012-2014</span>
+                                <span class="event-name">早期接案</span>
+                                <span class="event-description">在學時，常接一些學校的海報設計或平面設計的案子</span>
                             </div>
                             <!-- Single event -->
                             <div class="timeline-event te-primary">
-                                <span class="event-date">Jan 2004 - Dec 2006</span>
-                                <span class="event-name">Specialization course</span>
-                                <span class="event-description">University of studies, Poland, Cracow</span>
+                                <span class="event-date">2014-Today</span>
+                                <span class="event-name">設計網站接案</span>
+                                <span class="event-description">開始在518等外包網接些網站設計相關的案子</span>
                             </div>
                             <!-- Single event -->
                             <div class="timeline-event te-primary">
-                                <span class="event-date">Jan 2004 - Dec 2006</span>
-                                <span class="event-name">Specialization course</span>
-                                <span class="event-description">University of studies, Poland, Cracow</span>
+                                <span class="event-date">Jan 2014 - May 2014</span>
+                                <span class="event-name">傳產外包工程師</span>
+                                <span class="event-description">維護該公司網站，並將相關產品上架</span>
+                            </div>
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">Jul 2015 - Apr 2016</span>
+                                <span class="event-name">科技公司-全端工程師</span>
+                                <span class="event-description">將舊有的多個系統全面整合重構，並且維護公司伺服器與API接口</span>
                             </div>
                         </div>
                     </div>
@@ -224,7 +240,7 @@
                     <!-- Resume Box / Languages -->
                     <div class="resume-box">
                         <span class="icon animated" data-animation="fadeInDown"><i class="ti-cup text-tertiary"></i></span>
-                        <h4><strong>Language</strong> skills</h4>
+                        <h4><strong>語言能力</strong> Language</h4>
                         <!-- Skill -->
                         <div class="skill">
                             <div class="progress progress-animated">
@@ -232,51 +248,73 @@
                                     <span></span>
                                 </div>
                             </div>
-                            <strong>Polish</strong>
+                            <strong>Chinese 中文</strong>
                         </div>
                         <!-- Skill -->
                         <div class="skill">
                             <div class="progress progress-animated">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                                     <span></span>
                                 </div>
                             </div>
-                            <strong>English</strong>
-                        </div>
-                        <!-- Skill -->
-                        <div class="skill">
-                            <div class="progress progress-animated">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <strong>German</strong>
+                            <strong>English 英文</strong>
                         </div>
                     </div>
 
                     <!-- Resume Box / Hobbies -->
                     <div class="resume-box">
                         <span class="icon animated" data-animation="fadeInDown"><i class="ti-music-alt text-tertiary"></i></span>
-                        <h4><strong>Hobbies</strong> &amp; Interests</h4>
+                        <h4><strong>喜好</strong> &amp; 興趣</h4>
                             <ul class="list-inline">
                             <li>
                                 <div class="icon-box text-center">
+                                    <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-heart"></i></span>
+                                    <span class="title">童軍</span>
+                                </div> 
+                            </li>
+                            <li>
+                                <div class="icon-box text-center">
+                                    <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-video-camera"></i></span>
+                                    <span class="title">電影</span>
+                                </div> 
+                            </li> 
+                            <li>
+                                <div class="icon-box text-center">
                                     <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-music-alt"></i></span>
-                                    <span class="title">Music</span>
+                                    <span class="title">音樂</span>
                                 </div> 
                             </li> 
                             <li>
                                 <div class="icon-box text-center">
                                     <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-camera"></i></span>
-                                    <span class="title">Photography</span>
+                                    <span class="title">攝影</span>
                                 </div> 
                             </li> 
                             <li>
                                 <div class="icon-box text-center">
                                     <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-map-alt"></i></span>
-                                    <span class="title">Travel</span>
+                                    <span class="title">旅行</span>
                                 </div> 
-                            </li> 
+                            </li>
+                            <li>
+                                <div class="icon-box text-center">
+                                    <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-game"></i></span>
+                                    <span class="title">遊戲</span>
+                                </div> 
+                            </li>
+                            <li>
+                                <div class="icon-box text-center">
+                                    <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-palette"></i></span>
+                                    <span class="title">繪圖</span>
+                                </div> 
+                            </li>
+                            <li>
+                                <div class="icon-box text-center">
+                                    <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-book"></i></span>
+                                    <span class="title">閱讀</span>
+                                </div> 
+                            </li>
+                            
                         </ul>
                     </div>
 
@@ -294,7 +332,7 @@
         <!-- Content -->
         <div class="container container-wide">
 
-            <h6 class="margin-b-50">Portfolio</h6>
+            <h6 class="margin-b-50">作品集 Portfolio</h6>
 
             <!-- Filters -->
             <nav class="text-center">
