@@ -452,24 +452,24 @@
             <a href="#" class="messenger-close icon icon-hover icon-xs icon-circle icon-white" data-target="messenger"><i class="fa fa-times"></i></a>
             <!-- Avatar -->
             <img src="assets/img/photos/it-avatar-96x96.jpg" alt="..." class="img-circle margin-b-30">
-            <h3>Please fill the <strong>form</strong> - I will response as fast as I can!</h3>
+            <h3>請填寫本表單，我將會<strong>盡速</strong>與您聯繫喔!</h3>
             <!-- Contact Form -->
             <form id="contact-form">
                 <div class="form-alert"></div>
                 <div class="form-error alert alert-default"><ul></ul></div>
                 <div class="form-group">
-                    <label>Name:</label>
+                    <label>姓名、稱呼:</label>
                     <input id="name" class="form-control" type="text" name="name">
                 </div>
                 <div class="form-group">
-                    <label>Addres e-mail:</label>
+                    <label>電子信箱Email:</label>
                     <input id="email" class="form-control" type="text" name="email">
                 </div>
                 <div class="form-group">
-                    <label>Message:</label>
+                    <label>訊息:</label>
                     <textarea id="message" class="form-control" name="message" rows="4"></textarea>
                 </div>
-                <button type="submit" class="btn btn-secondary"><span>Send a message!</span><i class="ti-email"></i></button>
+                <button type="submit" class="btn btn-secondary"><span>送出啦!</span><i class="ti-email"></i></button>
             </form>
         </div>
     </div>
@@ -485,18 +485,14 @@
         <img src="assets/img/photos/it-avatar-96x96.jpg" alt="..." class="img-circle margin-b-30">
         <!-- Nav -->
         <ul class="nav nav-vertical">
-            <li><a href="#start"><span>Start</span></a></li>
-            <li><a href="#resume"><span>Resume</span></a></li>
-            <li><a href="#portfolio"><span>Portfolio</span></a></li>
-            <li><a href="#testimonials"><span>Testimonials</span></a></li>
-            <li><a href="#posts"><span>Latest Posts</span></a></li>
-            <li><a href="#contact"><span>Contact</span></a></li>
-            <li><a href="page-vertical.html" target="_blank"><span>Promo Page</span><span class="label label-primary margin-l-10">NEW!</span></a></li>
-            <li><a href="documentation.html" target="_blank"><span>Documentation</span></a></li>
+            <li><a href="#start"><span>開始</span></a></li>
+            <li><a href="#resume"><span>關於我</span></a></li>
+            <li><a href="#portfolio"><span>作品集</span></a></li>
+            <li><a href="#contact"><span>聯絡我吧</span></a></li>
         </ul>
         <!-- Social Media -->
         <div class="margin-t-20">
-            <strong class="text-sm hidden-md">Check my social media!</strong>
+            <strong class="text-sm hidden-md">查看我的社交媒體!</strong>
             <ul class="list-inline margin-t-10">
                 <li><a href="#" class="icon icon-xs"><i class="fa fa-facebook text-muted"></i></a></li>
                 <li><a href="#" class="icon icon-xs"><i class="fa fa-twitter text-muted"></i></a></li>
@@ -534,7 +530,7 @@ window.paceOptions = {
 <script src="assets/js/plugins.js"></script>
 
 <!-- JS Core -->
-<script src="assets/js/core.min.js"></script>
+<script src="assets/js/core.js"></script>
 
 <!-- Google Map API -->
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>

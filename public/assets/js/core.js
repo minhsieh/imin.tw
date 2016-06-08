@@ -321,16 +321,16 @@ var Mi = {
                 },
                 messages: {
                     name: {
-                        required    : "Please enter your name.",
-                        minlength   : "Your name needs to be at least 2 characters"
+                        required    : "請填寫姓名喔",
+                        minlength   : "你的名稱最少要2個字元以上"
                     },
                     email: {
-                        required    : "Please enter your email address.",
-                        minlength   : "You entered an invalid email address."
+                        required    : "請輸入你的電子信箱Email",
+                        minlength   : "這個信箱格式好像不正確"
                     },
                     message: {
-                        required    : "Please enter a message.",
-                        minlength   : "Your message needs to be at least 10 characters"
+                        required    : "請填寫要聯絡我的訊息",
+                        minlength   : "你的訊息最少要10個字元以上"
                     }
                 }
             });
@@ -343,14 +343,14 @@ var Mi = {
                 if ($contactForm.valid()){
                     $.ajax({
                         type: "POST",
-                        url: "assets/php/contact-form.php",
+                        url: "index.php/send/",
                         data: $(this).serialize(),
                         success: function(msg) {
                             if (msg === 'SEND') {
-                                response = '<div class="alert alert-success">Done! Thank for your message - You will get you an answer as fast as possible!';
+                                response = '<div class="alert alert-success">你的訊息成功送出!';
                             }
                             else {
-                                response = '<div class="alert alert-danger">Ooops... It seems that we have a problem.';
+                                response = '<div class="alert alert-danger">糟糕，訊息發送失敗，請稍後再嘗試，或改用Email給我的喔';
                             }
                             $formAlert.html(response);
                             $formAlert.show();
