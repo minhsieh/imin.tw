@@ -53,18 +53,18 @@
     <!-- Navigation -->
     <nav id="main-menu">
         <ul class="nav nav-vertical">
-            <li><a href="#start"><span>Start</span></a></li>
-            <li><a href="#resume"><span>Resume</span></a></li>
-            <li><a href="#portfolio"><span>Portfolio</span></a></li>
+            <li><a href="#start"><span>開始</span></a></li>
+            <li><a href="#resume"><span>關於我</span></a></li>
+            <li><a href="#portfolio"><span>作品集</span></a></li>
             <!-- <li><a href="#testimonials"><span>Testimonials</span></a></li> -->
-            <li><a href="#posts"><span>Latest Posts</span></a></li>
-            <li><a href="#contact"><span>Contact</span></a></li>
+            <!-- <li><a href="#posts"><span>Latest Posts</span></a></li> -->
+            <li><a href="#contact"><span>聯絡我吧</span></a></li>
         </ul>
     </nav>
 
     <!-- Social Media -->
     <div class="social-media">
-        <strong class="text-sm hidden-md">Check my social media!</strong>
+        <strong class="text-sm hidden-md">查看我的社群媒體</strong>
         <ul class="list-inline margin-t-10">
             <li><a href="#" class="icon icon-xs"><i class="fa fa-facebook text-muted"></i></a></li>
             <li><a href="#" class="icon icon-xs"><i class="fa fa-twitter text-muted"></i></a></li>
@@ -86,7 +86,7 @@
 
         <!-- Top -->
         <div class="container container-wide text-md">
-            <i class="icon-before fa fa-comments text-primary"></i>Have you got any questions? Write to me at <a href="#" class="text-primary">oimintw@gmail.com</a>
+            <i class="icon-before fa fa-comments text-primary"></i>有任何問題嗎? 歡迎寫信告訴我 <a href="#" class="text-primary">oimintw@gmail.com</a>
         </div>
 
         <!-- Middle -->
@@ -95,7 +95,7 @@
             <h5 class="text-tertiary margin-b-40">a Full-Stuck Webdeveloper 全端網頁開發者</h5>
             <span data-target="local-scroll">
                 <a href="#resume" class="btn btn-lg btn-primary animated" data-animation="bounceIn">
-                    <span>Go to my resume!</span>
+                    <span>了解「關於我」</span>
                     <i class="ti-arrow-down"></i>
                 </a>
             </span>
@@ -337,10 +337,10 @@
             <!-- Filters -->
             <nav class="text-center">
                 <ul class="nav nav-filter nav-pills margin-b-40" data-filter-grid="#portfolio-list">
-                    <li class="active"><a href="#" data-filter="*">All</a></li>
-                    <li><a href="#" data-filter=".webdesign">Webdesign</a></li>
-                    <li><a href="#" data-filter=".development">Development</a></li>
-                    <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
+                    <li class="active"><a href="#" data-filter="*">全部</a></li>
+                    <li><a href="#" data-filter=".webdesign">網頁設計</a></li>
+                    <li><a href="#" data-filter=".development">系統開發</a></li>
+                    <li><a href="#" data-filter=".graphic">圖像設計</a></li>
                 </ul>
             </nav>
             
@@ -349,110 +349,56 @@
                 <div class="masonry-sizer col-lg-3 col-sm-6 col-xs-12"></div>    
 
                 <!-- Masonry Element -->
-                <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-square01.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
-                <div class="development masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-square02.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
-                <div class="graphic masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-vertical01.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
-                <div class="webdesign masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-vertical02.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
                 <div class="development masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
                     <div class="gallery-item">
                         <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-horizontal01.jpg" alt="" /></a>
+                            <a href="projects/project-inventory.html" data-target="ajax-modal"><img src="projects/project-inventory-02.png" alt="" /></a>
                             <div class="item-hover bg-dark dark">
                                 <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                    <a href="projects/project-inventory.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="#" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
+                            <a href="projects/project-inventory.html" data-target="ajax-modal" class="title">倉儲貨物管理系統</a>
+                            <span class="caption text-muted">Demo系統</span>
                         </div>
                     </div>
                 </div>
                 <!-- Masonry Element -->
-                <div class="graphic masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
+                <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-6 col-xs-12">
                     <div class="gallery-item">
                         <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-square03.jpg" alt="" /></a>
+                            <a href="projects/garden/garden.html" data-target="ajax-modal"><img src="projects/garden/01.png" alt="" /></a>
                             <div class="item-hover bg-dark dark">
                                 <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                    <a href="projects/garden/garden.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="#" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
+                            <a href="projects/garden/garden.html" data-target="ajax-modal" class="title">園藝公司網站設計</a>
+                            <span class="caption text-muted">愛草園藝</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-6 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="projects/labcourse/labcourse.html" data-target="ajax-modal"><img src="projects/labcourse/01.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="projects/labcourse/labcourse.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="#" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="projects/labcourse/labcourse.html" data-target="ajax-modal" class="title">實驗課程系統</a>
+                            <span class="caption text-muted">展示給客戶的範例</span>
                         </div>
                     </div>
                 </div>
@@ -463,190 +409,24 @@
     </section>
     <!-- Section - Portfolio / End -->
 
-    <!-- Section - Testimonials -->
-    <section id="testimonials" class="section bg-primary dark padding-v-60">
-
-        <!-- Content -->
-        <div class="container container-wide">
-
-            <h6 class="margin-b-50">Testimonials</h6>
-
-            <h1 class="margin-b-0"><strong>4</strong> years of experence - <strong>over 1k</strong> happy clients!</h1>
-            <h5 class="text-muted margin-b-60">Look at their opinions!</h5>
-            
-            <div class="row padding-lg">
-                
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Testimonial -->
-                    <div class="testimonial testimonial-dark">
-                      <div class="testimonial-content font-alt">
-                          Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. 
-                      </div>
-                      <div class="testimonial-author testimonial-with-photo">
-                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar01.jpg" alt="" /></div>
-                          <div class="testimonial-author-txt">
-                              <span class="name">Mark Wagner</span>
-                              <span class="caption text-secondary">Google Inc.</span>
-                          </div>
-                      </div>
-                    </div>
-                    <!-- Testimonial -->
-                    <div class="testimonial testimonial-dark">
-                      <div class="testimonial-content font-alt">
-                          Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus. 
-                      </div>
-                      <div class="testimonial-author testimonial-with-photo">
-                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar02.jpg" alt="" /></div>
-                          <div class="testimonial-author-txt">
-                              <span class="name">Mark Wagner</span>
-                              <span class="caption text-secondary">Google Inc.</span>
-                          </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Testimonial -->
-                    <div class="testimonial testimonial-dark">
-                      <div class="testimonial-content font-alt">
-                          Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.<br><br>
-                          Aenean ac tincidunt augue, volutpat ullamcorper elit.
-                      </div>
-                      <div class="testimonial-author testimonial-with-photo">
-                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar03.jpg" alt="" /></div>
-                          <div class="testimonial-author-txt">
-                              <span class="name">Mark Wagner</span>
-                              <span class="caption text-secondary">Google Inc.</span>
-                          </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Testimonial -->
-                    <div class="testimonial testimonial-dark">
-                      <div class="testimonial-content font-alt">
-                          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-                      </div>
-                      <div class="testimonial-author testimonial-with-photo">
-                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar04.jpg" alt="" /></div>
-                          <div class="testimonial-author-txt">
-                              <span class="name">Mark Wagner</span>
-                              <span class="caption text-secondary">Google Inc.</span>
-                          </div>
-                      </div>
-                    </div>
-                </div>
-
-            </div>  
-
-        </div>
-        
-    </section>
-    <!-- Section - Testimonials / End -->
-
-    <!-- Section - Latest Posts -->
-    <section id="posts" class="section bg-grey padding-v-60">
-
-        <!-- Content -->
-        <div class="container container-wide">
-
-            <h6 class="margin-b-50">Latest Posts</h6>
-            
-            <div class="row masonry">
-                <!-- Masonry Sizer -->
-                <div class="masonry-sizer col-lg-4 col-sm-6 col-xs-12"></div>    
-                <!-- Masonry Element / Post -->
-                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12">
-                    <div class="post-photo">
-                        <img src="assets/img/photos/post01.jpg" alt="...">
-                    </div>
-                    <div class="post-content animated" data-animation="fadeInUp">
-                        <div class="meta">
-                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
-                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
-                            <span><i class="fa fa-tag"></i><a href="#">Webdevelopment</a></span>
-                        </div>
-                        <div class="date">22 May, 2014</div>
-                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
-                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
-                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
-                        <a href="blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="ti-arrow-right"></i></a>
-                    </div>
-                </article>
-                <!-- Masonry Element / Post -->
-                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12">
-                    <div class="post-content animated" data-animation="fadeInUp">
-                        <div class="meta">
-                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
-                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
-                            <span><i class="fa fa-tag"></i><a href="#">Webdesign</a></span>
-                        </div>
-                        <div class="date">22 May, 2014</div>
-                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
-                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
-                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
-                        <a href="blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="ti-arrow-right"></i></a>
-                    </div>
-                </article>
-                <!-- Masonry Element / Post -->
-                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12">
-                    <div class="post-photo">
-                        <img src="assets/img/photos/post02.jpg" alt="...">
-                    </div>
-                    <div class="post-content animated" data-animation="fadeInUp">
-                        <div class="meta">
-                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
-                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
-                            <span><i class="fa fa-tag"></i><a href="#">Front-End Development</a></span>
-                        </div>
-                        <div class="date">22 May, 2014</div>
-                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
-                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
-                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
-                        <a href="blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="ti-arrow-right"></i></a>
-                    </div>
-                </article>
-                <!-- Masonry Element / Post -->
-                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12">
-                    <div class="post-photo">
-                        <img src="assets/img/photos/post03.jpg" alt="...">
-                    </div>
-                    <div class="post-content animated" data-animation="fadeInUp">
-                        <div class="meta">
-                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
-                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
-                            <span><i class="fa fa-tag"></i><a href="#">Webdevelopment</a></span>
-                        </div>
-                        <div class="date">22 May, 2014</div>
-                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
-                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
-                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
-                        <a href="blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="ti-arrow-right"></i></a>
-                    </div>
-                </article>
-            </div>  
-
-        </div>
-        
-    </section>
-    <!-- Section - Latest Posts / End -->
 
     <!-- Section - Contact -->
     <section id="contact" class="section padding-v-60 min-fullheight">
 
         <!-- BG Map -->
-        <div id="google-map" class="bg-image" data-latitude="40.758895" data-longitude="-73.985131" data-style="light"></div>
+        <div id="google-map" class="bg-image" data-latitude="25.029617" data-longitude="121.471590" data-style="light"></div>
 
         <!-- Contact Box -->
         <div class="contact-box bg-secondary dark animated" data-animation="flipInY">
-            <h1>Don’t hesitate to <strong>contact me</strong>!</h1>
+            <h1>有任何需求嗎? <strong>聯絡我吧</strong>!</h1>
             <!-- Contact List -->
             <ul class="list-unstyled list-unstyled-icons">
-                <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>1111-A Nowhere Lane,<br />Outta Sight,<br />State 90378, USA</li>
-                <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">johnathandoe@suelo.pl</a></li>
-                <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+0(31)6 89764536</li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>新北市板橋區<br>文化路二段<br>293號 35樓</li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">oimintw@gmail.com</a></li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+886 963 383891</li>
             </ul>
             <a href="#" class="btn btn-primary" data-target="messenger"><span>Use Contact Form</span><i class="ti-email"></i></a>
-            <h5 class="margin-t-60">Check my social media!</h5>
+            <h5 class="margin-t-60">My Social Medias</h5>
             <ul class="list-inline">
                 <li><a href="#" class="icon icon-circle icon-xs icon-facebook"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#" class="icon icon-circle icon-xs icon-twitter"><i class="fa fa-twitter"></i></a></li>
