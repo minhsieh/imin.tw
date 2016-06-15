@@ -388,6 +388,24 @@
                 <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-6 col-xs-12">
                     <div class="gallery-item">
                         <div class="item-photo">
+                            <a href="projects/imin-travel/travel.html" data-target="ajax-modal"><img src="projects/imin-travel/cover.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="projects/imin-travel/travel.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="#" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="projects/imin-travel/travel.html" data-target="ajax-modal" class="title">旅遊公司網站設計</a>
+                            <span class="caption text-muted">Imin Travel</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-6 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
                             <a href="projects/labcourse/labcourse.html" data-target="ajax-modal"><img src="projects/labcourse/01.png" alt="" /></a>
                             <div class="item-hover bg-dark dark">
                                 <div class="item-hover-content">
