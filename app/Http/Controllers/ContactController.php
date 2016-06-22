@@ -21,6 +21,12 @@ class ContactController extends Controller
 		    $message->to('side112358@gmail.com');
 		});
 
+        Mail::send('mail.comfirm', ['name' => $request->input('name') , 'email' => $request->input('email')], function ($m) use ($request) {
+            $m->from('oimintw@gmail.com', 'I\'m In Studio System');
+
+            $m->to($request->email, $request->name)->subject('[I\'m In Studio]我們收到你的訊息囉');
+        });
+
 		return 'SEND';
     }
 }

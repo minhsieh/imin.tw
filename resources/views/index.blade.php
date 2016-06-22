@@ -47,7 +47,7 @@
     <!-- Logo -->
     <div class="logo bg-primary">
         <h1 class="name"><strong>I'm in</strong> Studio</h1>
-        <span class="caption text-secondary">Full-Stuck Webdeveloper</span>
+        <span class="caption text-secondary">Full-Stack Webdeveloper</span>
     </div>
 
     <!-- Navigation -->
@@ -92,7 +92,7 @@
         <!-- Middle -->
         <div class="container container-wide v-bottom padding-v-80">
             <h1 class="text-lg margin-b-0">Hi! I’m <strong>Min Hsieh</strong></h1>
-            <h5 class="text-tertiary margin-b-40">a Full-Stuck Webdeveloper 全端網頁開發者</h5>
+            <h5 class="text-tertiary margin-b-40">a Full-Stack Webdeveloper 全端網頁開發者</h5>
             <span data-target="local-scroll">
                 <a href="#resume" class="btn btn-lg btn-primary animated" data-animation="bounceIn">
                     <span>了解「關於我」</span>
@@ -487,7 +487,7 @@
                     <label>訊息:</label>
                     <textarea id="message" class="form-control" name="message" rows="4"></textarea>
                 </div>
-                <button type="submit" class="btn btn-secondary"><span>送出啦!</span><i class="ti-email"></i></button>
+                <button id="btn_contact_submit" type="submit" class="btn btn-secondary"><span>送出啦!</span><i class="ti-email"></i></button>
             </form>
         </div>
     </div>
@@ -549,7 +549,92 @@ window.paceOptions = {
 
 <!-- JS Core -->
 <script src="assets/js/core.js"></script>
+<script type="text/javascript">
+            var $formAlert, $formError;
 
+            // Basic Form 
+
+            var $basicForm  = $('.basic-form');
+            $basicForm.validate({
+                errorPlacement: function(error, element) { }
+            });
+            $basicForm.submit(function() {
+                $formAlert = $(this).find('.form-alert');
+                $formError = $(this).find('.form-error');
+                if(!$basicForm.valid()) $formError.show();
+            });
+
+            // Contact Form
+
+            var $contactForm  = $('#contact-form');
+    
+            $contactForm.validate({
+                errorElement: 'span',
+                errorContainer: $contactForm.find('.form-error'),
+                errorLabelContainer: $contactForm.find('.form-error ul'),
+                wrapper: "li",
+                rules: {
+                    name: {
+                        required    : true,
+                        minlength   : 2
+                    },
+                    email: {
+                        required    : true,
+                        email       : true
+                    },
+                    message: {
+                        required    : true,
+                        minlength   : 10
+                    }
+                },
+                messages: {
+                    name: {
+                        required    : "請填寫姓名喔",
+                        minlength   : "你的名稱最少要2個字元以上"
+                    },
+                    email: {
+                        required    : "請輸入你的電子信箱Email",
+                        minlength   : "這個信箱格式好像不正確"
+                    },
+                    message: {
+                        required    : "請填寫要聯絡我的訊息",
+                        minlength   : "你的訊息最少要10個字元以上"
+                    }
+                }
+            });
+        
+            $contactForm.submit(function() {
+                $formAlert = $(this).find('.form-alert');
+                $formError = $(this).find('.form-error');
+                var response;
+                $formAlert.hide().html();
+                if ($contactForm.valid()){
+                    $('#btn_contact_submit').addClass('disabled');
+
+                    $.ajax({
+                        type: "POST",
+                        url: "{{action('ContactController@send')}}",
+                        data: $(this).serialize(),
+                        success: function(msg) {
+                            if (msg === 'SEND') {
+                                response = '<div class="alert alert-success">你的訊息成功送出!';
+                            }
+                            else {
+                                response = '<div class="alert alert-danger">糟糕，訊息發送失敗，請稍後再嘗試，或改用Email給我的喔';
+                            }
+                            $formAlert.html(response);
+                            $formAlert.show();
+                        },
+                        complate: function(){
+                            $('#btn_contact_submit').removeClass('disabled');
+                        }
+                     });
+                    return false;
+                }
+                return false;
+            });
+
+</script>
 <!-- Google Map API -->
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
