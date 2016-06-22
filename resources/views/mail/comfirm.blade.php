@@ -183,13 +183,15 @@
                   <tr>
                     <td style="font-size:40px; font-weight: 600; color: #ffffff; text-align:center;" class="mobile-spacing">
                     <div class="mobile-br">&nbsp;</div>
-                      親愛的{{$name}}，您的訊息我們收到了
+                      您的訊息我們收到了
                     <br/>
                     </td>
                   </tr>
                   <tr>
                     <td style="font-size:24px; text-align:center; padding: 0 75px; color: #6f6f6f;" class="w320 mobile-spacing">
-                     我們將會盡快回覆您，謝謝
+                      親愛的{{$name}}<br>
+                      非常謝謝你的聯絡訊息<br>
+                     我們將會盡快回覆您
                     </td>
                   </tr>
                 </table>
@@ -220,8 +222,8 @@
                     </td>
                     <td style="text-align:right; vertical-align:top;">
                     <br>
-                    <b>Email: </b> <br>
-                    {{$email}}
+                    <b></b> <br>
+                    
                     </td>
                   </tr>
                 </table>
@@ -234,12 +236,12 @@
                       <table cellspacing="0" cellpadding="0" class="force-full-width">
                         <tr>
                           <td style="border-bottom:1px solid #e3e3e3; font-weight: bold; text-align:left">
-                          
+                          Email信箱:
                           </td>
                         </tr>
                         <tr>
                           <td style="text-align:left;">
-                           
+                           {{$email,Microsoft JhengHei}}
                           </td>
                         </tr>
                       </table>
@@ -252,7 +254,8 @@
                   <tr>
                     <td style="text-align: left;">
                     <br>
-                      
+                      有其他事情要補充?也歡迎直接來信 oimintw@gmail.com<br><br>
+                      I'm In Studio
                     </td>
                   </tr>
                 </table>
@@ -262,14 +265,24 @@
                 <tr>
                   <td style="text-align:center; margin:0 auto;">
                   <br>
-                    
+                    <div><!--[if mso]>
+                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:45px;v-text-anchor:middle;width:180px;" stroke="f" fillcolor="#f5774e">
+                        <w:anchorlock/>
+                        <center>
+                      <![endif]-->
+                          <a href="http://imin.tw/"
+                        style="background-color:#f5774e;color:#ffffff;display:inline-block;font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;font-size:18px;font-weight:400;line-height:45px;text-align:center;text-decoration:none;width:180px;-webkit-text-size-adjust:none;">imin.tw</a>
+                          <!--[if mso]>
+                        </center>
+                      </v:rect>
+                    <![endif]--></div>
                     <br>
                   </td>
                 </tr>
               </table>
 
 
-              <table cellspacing="0" cellpadding="0" bgcolor="#363636"  class="force-full-width">
+              <table cellspacing="0" cellpadding="0" bgcolor="#363636"  class="force-full-width" width="100%">
                 <tr>
                   <td style="background-color:#363636; text-align:center;">
                   <br>
@@ -283,12 +296,12 @@
                 </tr>
                 <tr>
                   <td style="color:#f0f0f0; font-size: 14px; text-align:center; padding-bottom:4px;">
-                    © 2014 All Rights Reserved
+                    © 2016 I'm In Studio All Rights Reserved
                   </td>
                 </tr>
                 <tr>
                   <td style="color:#27aa90; font-size: 14px; text-align:center;">
-                    <a href="#">View in browser</a> | <a href="#">Contact</a> | <a href="#">Unsubscribe</a>
+                    
                   </td>
                 </tr>
                 <tr>
