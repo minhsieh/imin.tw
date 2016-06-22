@@ -46,6 +46,7 @@
     color: #37302d;
     background: #ffffff;
     font-size: 16px;
+    font-family: Microsoft JhengHei;
   }
 
    table {
@@ -70,7 +71,7 @@
       @media screen {
          /*Thanks Outlook 2013! http://goo.gl/XLxpyl*/
         td, h1, h2, h3 {
-          font-family: 'Droid Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+          font-family: 'Droid Sans', 'Helvetica Neue', 'Arial', 'sans-serif',,Microsoft JhengHei !important;
         }
       }
   </style>
@@ -100,7 +101,7 @@
                   <tr>
                     <td style="font-size: 30px; text-align:center;">
                       <br>
-                        I'm In Studio
+                        感謝您的聯絡
                       <br>
                       <br>
                     </td>
@@ -116,7 +117,7 @@
                   </tr>
                   <tr>
                     <td class="headline">
-                      {{$name}} , 謝謝你的訊息
+                      親愛的 {{$name}}
                     </td>
                   </tr>
                   <tr>
@@ -127,7 +128,7 @@
                           <tr>
                             <td style="color:#187272;">
                             <br>
-                             我們將會盡快與您聯繫
+                             我們已經收到您的訊息了，會盡速與您聯絡喔！
                             <br>
                             <br>
                             <br>
@@ -140,15 +141,84 @@
                   </tr>
                 </table>
 
+                <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" bgcolor="#f5774e">
+                  <tr>
+                    <td>
+                    <br>
+                      <img src="https://www.filepicker.io/api/file/hkpp4OzbQme8bszfOs1k" width="113" height="100" alt="meter image">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+
+                      <center>
+                        <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="60%">
+                          <tr>
+                            <td style="color:#933f24;">
+                              {{$message}}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="color:#933f24;">
+                              {{$email}}
+                              <br><br>
+                            </td>
+                          </tr>
+                        </table>
+                      </center>
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div><!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:50px;v-text-anchor:middle;width:200px;" arcsize="8%" stroke="f" fillcolor="#ac4d2f">
+                          <w:anchorlock/>
+                          <center>
+                        <![endif]-->
+                            <a href="http://"
+                      style="background-color:#ac4d2f;border-radius:4px;color:#ffffff;display:inline-block;font-family: Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">My Account</a>
+                        <!--[if mso]>
+                          </center>
+                        </v:roundrect>
+                      <![endif]--></div>
+                      <br>
+                      <br>
+                    </td>
+                  </tr>
+                </table>
+
                 <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" class="force-full-width" bgcolor="#414141" style="margin: 0 auto">
                   <tr>
+                    <td style="background-color:#414141;">
+                    <br>
+                    <br>
+                      <img src="https://www.filepicker.io/api/file/R4VBTe2UQeGdAlM7KDc4" alt="google+">
+                      <img src="https://www.filepicker.io/api/file/cvmSPOdlRaWQZnKFnBGt" alt="facebook">
+                      <img src="https://www.filepicker.io/api/file/Gvu32apSQDqLMb40pvYe" alt="twitter">
+                      <br>
+                      <br>
+                    </td>
+                  </tr>
+                  <tr>
                     <td style="color:#bbbbbb; font-size:12px;">
-                       © 2016 I'm In Studio All Rights Reserved
+                      <a href="#">View in browser</a> | <a href="#">Unsubscribe</a> | <a href="#">Contact</a>
+                      <br><br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="color:#bbbbbb; font-size:12px;">
+                       © 2014 All Rights Reserved
                        <br>
                        <br>
                     </td>
                   </tr>
                 </table>
+
+
+
+
+
             </td>
           </tr>
         </table>
