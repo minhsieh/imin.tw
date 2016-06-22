@@ -241,7 +241,7 @@
                         </tr>
                         <tr>
                           <td style="text-align:left;">
-                           {{$email,Microsoft JhengHei}}
+                           {{$email}}
                           </td>
                         </tr>
                       </table>
