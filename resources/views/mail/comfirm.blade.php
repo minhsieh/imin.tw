@@ -179,7 +179,7 @@
             <tr>
               <td style="background-color:#3bcdb0;">
 
-                <table cellspacing="0" cellpadding="0" class="force-full-width">
+                <table cellspacing="0" cellpadding="0" class="force-full-width" width="100%">
                   <tr>
                     <td style="font-size:40px; font-weight: 600; color: #ffffff; text-align:center;" class="mobile-spacing">
                     <div class="mobile-br">&nbsp;</div>
@@ -212,7 +212,7 @@
             <tr>
               <td style="background-color:#ffffff; padding-top: 15px;">
 
-              <center>
+              <center width="100%">
                 <table style="margin:0 auto;" cellspacing="0" cellpadding="0" class="force-width-80">
                   <tr>
                     <td style="text-align:left;">
