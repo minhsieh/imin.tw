@@ -155,7 +155,7 @@
                         <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="60%">
                           <tr>
                             <td style="color:#933f24;">
-                              {{$message}}
+                              {{$content}}
                               </td>
                             </tr>
                             <tr>
