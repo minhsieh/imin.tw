@@ -65,12 +65,8 @@
 				</ul>
 				<!-- End Off-Canvas Links -->
 				
-				
-				
 				<!-- Navigation Footer -->
 				<div class="nav-footer margin-top-100px">
-			
-
 					<!-- Off-Canvas Search -->
 					<form class="uk-search uk-search-default width-100 bg-gray-extra-dark margin-top-20px">
 						<a href="" class="uk-search-icon-flip text-white" data-uk-search-icon></a>
