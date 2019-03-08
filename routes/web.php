@@ -12,6 +12,13 @@
 */
 
 Route::get('/', 'HomeController@index');
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['prefix' => 'back' , 'middleware' => 'auth'],function(){
+    Route::group(['prefix' => 'portfolio'] , function() {
+        Route::get('/', 'Back\PortfolioController@index');
+        Route::get('/create', 'Back\PortfolioController@create');
+        Route::post('/create', 'Back\PortfolioController@store');
+    });
+});
