@@ -13,15 +13,6 @@
 
 Route::get('/', 'HomeController@index');
 
-Auth::routes();
-
-Route::group(['prefix' => 'back' , 'middleware' => 'auth'],function(){
-    Route::group(['prefix' => 'portfolio'] , function() {
-        Route::get('/', 'Back\PortfolioController@index');
-        Route::get('/create', 'Back\PortfolioController@create');
-        Route::post('/create', 'Back\PortfolioController@store');
-    });
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
-
-Route::resource('admin/posts', 'Admin\\PostsController');
-Route::resource('admin/portfolio', 'Admin\\PortfolioController');

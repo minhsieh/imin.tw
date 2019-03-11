@@ -100,51 +100,33 @@
 		<!-- End Off-Canvas Navigation -->
 		
 		
-		
-		
-		
 		<!-- Home -->
 		<section class="padding-top-bottom-150px">
-		
 			<!-- Container -->
 			<div class="container">
-
 				<!-- Row -->
 				<div class="row">
-				
 					<!-- Column -->
 					<div class="col-md-10 col-sm-12 col-xs-12 text-center margin-auto">
-						
 						<div class="uk-dark padding-50px all-border border-10px border-color-black width-60 margin-auto xs-width-100">
-							
 							<!-- Title -->
 							<h5 class="text-extra-small text-black text-weight-700 margin-bottom-10px text-uppercase letter-spacing-10">MIN HSIEH<span class="no-letter-spacing">r</span></h5>
-							
 							<div class="separator center-col width-100-percent bottom-border border-1px border-color-gray-dark margin-top-bottom-20px margin-bottom-25px"></div>
-
 							<!-- Heading -->
 							<h3 class="text-weight-700 text-black">I am a Web Developer Works With Passion & Joy</h3>
-							
-
 							<a class="btn btn-small btn-transparent-black margin-right-10px sm-margin-left-right-auto sm-display-table xs-margin-bottom-15px" href="#">Know More</a>
-							
 							<a class="btn btn-small btn-black sm-margin-left-right-auto sm-display-table xs-no-margin-bottom" href="#link1" data-uk-scroll>Say Hi</a>
-
 						</div>
-						
 					</div>
 					<!-- End Column -->
-					
 				</div>
 				<!-- End Row -->
-				
 			</div>
 			<!-- End Container -->
-
 		</section>
 		<!-- End Home -->
 
-		<!-- Services -->
+		<!-- About Me Start -->
 		<div id="services-link" class="bg-gray-extra-light padding-top-bottom-150px">
 			<div class="container">
 				<div class="row">
@@ -199,7 +181,148 @@
 				</div>
 			</div>
 		</div>
-		<!-- End Services -->
+		<!-- About Me End -->
+
+		<!-- Skills 1 Start-->
+		<section class="padding-top-bottom-150px">
+			<!-- Container -->
+			<div class="container">
+				<!-- Row -->
+				<div class="row">
+					<!-- Column -->
+					<div class="col-md-8 col-sm-12 col-xs-12 center-col text-center margin-auto">
+						<!-- Title -->
+						<div class="position-relative overflow-hidden width-70 padding-bottom-100px page-title-smaller margin-auto">
+							<!-- Title -->
+							<h1 class="no-margin uk-heading-line uk-text-center"><span class="text-gray-extra-dark text-uppercase text-weight-700 letter-spacing-2">Style 04</span></h1>
+						</div>
+						<!-- End Title -->
+					</div>
+					<!-- End Column -->
+				</div>
+				<!-- End Row -->
+				<!-- Positioning -->
+				<div class="position-relative">
+					<!-- Animation -->
+					<div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; target: > .row > div > div; delay: 50; repeat: false">
+						<!-- Row -->
+						<div class="row uk-grid">
+							<!-- Column -->
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+								<!-- Card -->
+								<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+									<div class="uk-card uk-card-default uk-card-body text-left">
+										<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">Title</h6>
+										<div class="uk-card-badge uk-label text-small">Badge</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</div>
+								<!-- End Card -->
+							</div>
+							<!-- End Column -->
+							<!-- Column -->
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+								<!-- Card -->
+								<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+									<div class="uk-card uk-card-default uk-card-body bg-gray-extra-dark text-left">
+										<h6 class="text-white bottom-border border-1px border-color-gray-dark padding-bottom-30px">Title</h6>
+										<div class="uk-card-badge uk-label bg-blue text-small">Badge</div>
+										<p class="text-gray-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</div>
+								<!-- End Card -->
+							</div>
+							<!-- End Column -->
+							
+							<!-- Column -->
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center xs-margin-bottom-25px">
+								<!-- Card -->
+								<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+									<div class="uk-card uk-card-default uk-card-body bg-blue text-left">
+										<h6 class="text-white bottom-border border-1px border-color-gray-dark padding-bottom-30px">Title</h6>
+										<div class="uk-card-badge uk-label bg-gray-dark text-small">Badge</div>
+										<p class="text-gray-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</div>
+								<!-- End Card -->
+							</div>
+							<!-- End Column -->
+						</div>
+						<!-- End Row -->
+					</div>
+					<!-- End Animations -->
+				</div>
+				<!-- End Positioning -->
+			</div>
+			<!-- End Container -->
+		</section>
+		<!-- Skills 1 End-->
+
+		<!-- Skills 2 Start-->
+		<section class="padding-top-bottom-150px bg-gray-extra-light">
+			<!-- Container -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-12 col-xs-12 center-col text-center margin-auto">
+						<div class="position-relative overflow-hidden width-70 padding-bottom-100px page-title-smaller margin-auto">
+							<h1 class="no-margin uk-heading-line uk-text-center"><span class="text-gray-extra-dark text-uppercase text-weight-700 letter-spacing-2">Style 04</span></h1>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Positioning -->
+				<div class="position-relative">
+					<!-- Row -->
+					<div class="row uk-grid">
+						<!-- Column -->
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<!-- Card -->
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body text-left">
+									<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">Title</h6>
+									<div class="uk-card-badge uk-label text-small">Badge</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								</div>
+							</div>
+							<!-- End Card -->
+						</div>
+						<!-- End Column -->
+						
+						<!-- Column -->
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<!-- Card -->
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body bg-gray-extra-dark text-left">
+									<h6 class="text-white bottom-border border-1px border-color-gray-dark padding-bottom-30px">Title</h6>
+									<div class="uk-card-badge uk-label bg-blue text-small">Badge</div>
+									<p class="text-gray-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								</div>
+							</div>
+							<!-- End Card -->
+						</div>
+						<!-- End Column -->
+						
+						<!-- Column -->
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center xs-margin-bottom-25px">
+							<!-- Card -->
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body bg-blue text-left">
+									<h6 class="text-white bottom-border border-1px border-color-gray-dark padding-bottom-30px">Title</h6>
+									<div class="uk-card-badge uk-label bg-gray-dark text-small">Badge</div>
+									<p class="text-gray-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								</div>
+							</div>
+							<!-- End Card -->
+						</div>
+						<!-- End Column -->
+					</div>
+					<!-- End Row -->
+				</div>
+				<!-- End Positioning -->
+			</div>
+			<!-- End Container -->
+		</section>
+		<!-- Skills 2 End-->
 		
 		<!-- Portfolio -->
 		<section id="link1" data-uk-scrollspy="cls:uk-animation-fade" class="padding-top-bottom-150px">
