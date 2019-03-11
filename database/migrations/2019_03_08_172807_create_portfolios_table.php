@@ -1,8 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
 
 class CreatePortfoliosTable extends Migration
 {
@@ -14,14 +13,14 @@ class CreatePortfoliosTable extends Migration
     public function up()
     {
         Schema::create('portfolios', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('title');
-            $table->string('main_img')->nullable();
-            $table->integer('sort')->default(1);
-            $table->string('short_desc')->nullable();
-            $table->text('content')->nullable();
+            $table->increments('id');
             $table->timestamps();
-        });
+            $table->string('title')->nullable();
+            $table->text('content')->nullable();
+            $table->string('main_img')->nullable();
+            $table->integer('sort')->nullable()->default(1);
+            $table->string('short_desc')->nullable();
+            });
     }
 
     /**
@@ -31,6 +30,6 @@ class CreatePortfoliosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('portfolios');
+        Schema::drop('portfolios');
     }
 }

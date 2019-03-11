@@ -22,3 +22,6 @@ Route::group(['prefix' => 'back' , 'middleware' => 'auth'],function(){
         Route::post('/create', 'Back\PortfolioController@store');
     });
 });
+
+Route::resource('admin/posts', 'Admin\\PostsController');
+Route::resource('admin/portfolio', 'Admin\\PortfolioController');

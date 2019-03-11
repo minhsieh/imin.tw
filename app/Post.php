@@ -4,14 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Portfolio extends Model
+class Post extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'portfolios';
+    protected $table = 'posts';
 
     /**
     * The database primary key value.
@@ -25,7 +25,7 @@ class Portfolio extends Model
      *
      * @var array
      */
-    protected $fillable = ['title', 'content', 'main_img', 'sort', 'short_desc'];
+    protected $fillable = ['title', 'content', 'category'];
 
     
 }
