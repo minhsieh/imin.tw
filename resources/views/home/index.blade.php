@@ -189,70 +189,118 @@
 			<div class="container">
 				<!-- Row -->
 				<div class="row">
-					<!-- Column -->
 					<div class="col-md-8 col-sm-12 col-xs-12 center-col text-center margin-auto">
-						<!-- Title -->
 						<div class="position-relative overflow-hidden width-70 padding-bottom-100px page-title-smaller margin-auto">
-							<!-- Title -->
-							<h1 class="no-margin uk-heading-line uk-text-center"><span class="text-gray-extra-dark text-uppercase text-weight-700 letter-spacing-2">Style 04</span></h1>
+							<h1 class="no-margin uk-heading-line uk-text-center"><span class="text-gray-extra-dark text-uppercase text-weight-700 letter-spacing-2">My Skills</span></h1>
 						</div>
-						<!-- End Title -->
 					</div>
-					<!-- End Column -->
 				</div>
-				<!-- End Row -->
-				<!-- Positioning -->
 				<div class="position-relative">
-					<!-- Animation -->
-					<div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; target: > .row > div > div; delay: 50; repeat: false">
-						<!-- Row -->
-						<div class="row uk-grid">
-							<!-- Column -->
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
-								<!-- Card -->
-								<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
-									<div class="uk-card uk-card-default uk-card-body text-left">
-										<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">Title</h6>
-										<div class="uk-card-badge uk-label text-small">Badge</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									</div>
+					<div class="row uk-grid">
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body text-left">
+									<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">PHP</h6>
+									{{-- <div class="uk-card-badge uk-label text-small">Badge</div> --}}
+									<ul>
+										<li>Laravel</li>
+										<li>Phalcon</li>
+										<li>Workerman</li>
+										<li>Swoole</li>
+										<li>Codeigniter</li>
+										<li>Composer</li>
+									</ul>
 								</div>
-								<!-- End Card -->
 							</div>
-							<!-- End Column -->
-							<!-- Column -->
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
-								<!-- Card -->
-								<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
-									<div class="uk-card uk-card-default uk-card-body bg-gray-extra-dark text-left">
-										<h6 class="text-white bottom-border border-1px border-color-gray-dark padding-bottom-30px">Title</h6>
-										<div class="uk-card-badge uk-label bg-blue text-small">Badge</div>
-										<p class="text-gray-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									</div>
-								</div>
-								<!-- End Card -->
-							</div>
-							<!-- End Column -->
-							
-							<!-- Column -->
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center xs-margin-bottom-25px">
-								<!-- Card -->
-								<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
-									<div class="uk-card uk-card-default uk-card-body bg-blue text-left">
-										<h6 class="text-white bottom-border border-1px border-color-gray-dark padding-bottom-30px">Title</h6>
-										<div class="uk-card-badge uk-label bg-gray-dark text-small">Badge</div>
-										<p class="text-gray-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									</div>
-								</div>
-								<!-- End Card -->
-							</div>
-							<!-- End Column -->
 						</div>
-						<!-- End Row -->
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body text-left">
+										<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">Server / Deploy </h6>
+									{{-- <div class="uk-card-badge uk-label bg-blue text-small">Badge</div> --}}
+									<ul>
+										<li>Ubuntu</li>
+										<li>Docker <a href="https://github.com/minhsieh/docker-workspace" target="__blank">Github</a></li>
+										<li>Git Flow</li>
+										<li>AWS EC2 S3</li>
+										<li>VPS Service(Vultr , Linode)</li>
+										<li>CloudFlare</li>
+										<li>LAMP</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body text-left">
+										<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">Front-End</h6>
+									{{-- <div class="uk-card-badge uk-label bg-blue text-small">Badge</div> --}}
+									<ul>
+										<li>javascript</li>
+										<li>jQuery</li>
+										<li>Boostrap CSS</li>
+										<li>Materialize CSS</li>
+										<li>Semantic-UI CSS</li>
+										<li>Angular2</li>
+										<li>Vue.js</li>
+										<li>ReactJs</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
 					</div>
-					<!-- End Animations -->
+					<div class="row uk-grid">
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body text-left">
+									<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">Database</h6>
+									{{-- <div class="uk-card-badge uk-label text-small">Badge</div> --}}
+									<ul>
+										<li>MySQL or MariaDB</li>
+										<li>Oracle</li>
+										<li>Redis</li>
+										<li>SSDB</li>
+										<li>ElasticSearch</li>
+										<li>Memcached</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body text-left">
+									<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">API</h6>
+									{{-- <div class="uk-card-badge uk-label text-small">Badge</div> --}}
+									<ul>
+										<li>Facebook API</li>
+										<li>Google API</li>
+										<li>Line Bot</li>
+										<li>Twitch API</li>
+										<li>Telegram</li>
+										<li>Mailgun</li>
+										<li>Every8d</li>
+										<li>歐付寶 綠界支付</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center sm-margin-bottom-25px">
+							<div class="uk-scrollspy-inview uk-animation-slide-bottom-medium" style="">
+								<div class="uk-card uk-card-default uk-card-body text-left">
+									<h6 class="text-gray-extra-dark bottom-border border-1px border-color-gray-regular padding-bottom-30px">My packages</h6>
+									{{-- <div class="uk-card-badge uk-label text-small">Badge</div> --}}
+									<ul>
+										<li>php-daemon</li>
+										<li>TwitchBot</li>
+										<li>php-command</li>
+										<li>my-spiders</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<!-- End Positioning -->
 			</div>
 			<!-- End Container -->
 		</section>
